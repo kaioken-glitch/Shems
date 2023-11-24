@@ -1,0 +1,177 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    overflow: visible; /* Prevents scrollbars caused by the video */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/* Header Section Styles */
+.site-header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.5);  /* Ensure the header is above the video */
+}
+
+.site-header .logo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.site-header img {
+    max-height: 50px; /* Adjust as needed */
+    margin-right: 100px;
+}
+
+.main-navigation {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.main-navigation ul {
+    list-style: none;
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #9e9e9e;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.main-navigation a:hover {
+    color: #fcfcfc; /* Change to your desired hover color */
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #3498db; /* Change to your desired button color */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #011827;
+    color: #fff; /* Change to your desired hover color */
+}
+
+/* Video Background Styles */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Place the video behind other elements */
+}
+
+section{
+    background-color: aliceblue;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-top: 200px;
+}
+
+.devcs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.devcs h1{
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.devcs select{
+    justify-self: flex-end;
+    width: fit-content;
+    margin-left: 10px;
+}
+
+.lllms{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: 5px;
+    border: 1px solid gray;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.item h3{
+    margin-left: 10px;
+}
+
+.item p{
+    margin-right: 10px;
+}
+
+.item:hover{
+    background-color: #011827;
+    color: aliceblue;
+}

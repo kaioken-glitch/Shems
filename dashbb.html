@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashbb.css">
+    <link rel="shortcut icon" href="./smart-home-energy-management-system-favicon-white.png" type="image/x-icon">
+</head>
+<body>
+    <video id="bg-video" autoplay muted loop>
+        <source src="./production_id_4779866 (1080p).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Header Section -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">
+                <img src="./shems-high-resolution-logo-white-transparent.png" alt="Smart Home Energy Manager Logo">
+            </div>
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="./shems.html">Home</a></li>
+                    <li><a href="./dashbb.html">Dashboard</a></li>
+                    <li><a href="./devices.html">Devices</a></li>
+                    <li><a href="./analy.html">Analytics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="lin">
+        <h1>Consumption Rating</h1>
+    </div>
+
+    <section>
+       <div class="bm">
+        <div class="devs">
+            <div class="appl">
+                <i class="fa-solid fa-blender-phone" style="color: #000000;"></i>
+            </div>
+
+            <div class="progress-counter" id="progress-counter">
+                <div class="progress-fill" id="progressFill"></div>
+                <div class="progress-text" id="progressText">100%</div>
+            </div>
+
+            <div class="content">
+                <h2>Kw/h</h2>
+            </div>
+        </div>
+
+        <div class="devs">
+            <div class="appl">
+                <i class="fa-solid fa-fire-burner" style="color: #000000;"></i>
+            </div>
+
+            <div class="progress-counter" id="progress-counter">
+                <div class="progress-fill" id="progressFill"></div>
+                <div class="progress-text" id="progressText"></div>
+            </div>
+
+            <div class="content">
+                <h2>Kw/h</h2>
+            </div>
+        </div>
+
+        <div class="devs">
+            <div class="appl">
+                <i class="fa-solid fa-display" style="color: #000000;"></i>
+            </div>
+
+            <div class="progress-counter" id="progress-counter">
+                <div class="progress-fill" id="progressFill"></div>
+                <div class="progress-text" id="progressText"></div>
+            </div>
+
+            <div class="content">
+                <h2>Kw/h</h2>
+            </div>
+        </div>
+
+        <div class="devs">
+            <div class="appl">
+                <i class="fa-solid fa-bath" style="color: #000000;"></i>
+            </div>
+
+            <div class="progress-counter">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="content">
+                <h2>Kw/h</h2>
+            </div>
+        </div>
+       </div>
+
+       <div class="spe">
+        <h1>Manage Your Appliances Consumption</h1>
+        <p>Total Consumption</p>
+        <p>Unit Kw/h</p>
+        <div class="progress-counter" id="progressCounter">
+            <!-- Progress counter div -->
+            <div class="progress-fill" id="progressFill"></div>
+            <div class="progress-text" id="progressText">60%</div>
+       </div>
+    </section>
+
+    <script src="./dashbb.js"></script>
+    <script src="https://kit.fontawesome.com/826c469fe7.js" crossorigin="anonymous"></script>
+</body>
+</html>
